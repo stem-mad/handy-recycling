@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>HANDY RECYCLING</title>
+<style>
+	body{
+		font-family: sans-serif;
+	}
+	h1 {
+	  	font-size: 53px;
+	  	padding: 0px;
+	  	margin: 0px;
+	  	padding: 30px;
+	 }
+	 h2{
+	 	color: green;
+	 }
+	 p{
+	 	font-size: 16px;
+	 }
+	.header {
+		background-color: green;
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		border-radius: 15px;
+		margin: 15px;
+	}
+	.content-section {
+		margin: auto;
+		width: 1200px;
+		padding: 15px;
+	}
+	.scan-section {
+		float: right;
+		width: 600px;
+		text-align: center;
+	}
+	.info-section{
+		float: left;
+		width: 570px;
+		padding-right: 30px;
+	}
+	.my-image{
+		width: 100%;
+		border: solid 10px green;
+		border-radius: 15px;
+	}
+	.my-button{
+		font-size:16px;
+		font-weight: bold;
+		padding: 15px 30px;
+		border-radius: 100px;
+		border: none;
+		background-color: #0271e0;
+		color: #fff;
+	}
+
+</style>
+<script>
+					function myfunction() {
+						alert ("This item is recyclable. Take it to a ten cents for change hub or put it in a normal recyling bin.")
+					}
+				</script>
+</head>
+
+<body>
+	<div class="header padding">
+		<h1>HANDY RECYCLING</h1>
+	</div>
+	<div class="content-section padding">
+		<div class="scan-section padding">
+			<h3>Scan item here to see if it's recyclable</h3>
+			<p><input class="my-button" type="button" value="Check" onclick="myfunction()"/></p>
+				<img class="my-image" src="images/person-holding-up-plastic-water-bottle.jpg" alt= "plastic bottle"/>
+		</div>
+		<div class="info-section padding">
+			<h2>Why do we need to recycle?</h2>
+			<p>We need to recycle otherwise we will go trouhgh a <b>major enviromental crisis by 2050.</b> We also need to recycle because when we put things in <b>landfill most of it blows away pouluting other areas which is usualy the ocean.</b> When rubbish gets in the ocean it can <b>kill animals or make them sick.</b> For example turtles think that plasic bags are jelly fish and eat them, but they cannot digest them. Garbage can also build up in the ocean and make island like formations like the Great Pacific Garbage Patch.</p>
+		</div>
+	</div>
+</html>
